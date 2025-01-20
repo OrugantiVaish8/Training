@@ -297,5 +297,46 @@ clouser
 the binding of child function to the parent function
 or it is the binding of child function lexical scope to the parent function we will call that as a closure
 disadvantage of closure is memory wastage (whenever we call the child function multiple times, multiple times closure will be created in heap area it leads to memory wastage)
-
-
+IIFE function
+it will be called immediately once function object is created
+syntax
+(expression - function)()
+Example
+(function()
+{
+    console.log("hello)
+})();
+arrow function
+(()=>{
+    console.log("hello)
+})()
+array in javascript
+it is used to store data of an different datatypes and it is heterogeneous in javaScript
+two ways to create arrayin javaScript
+let arr=[10,"hello",true,1n,Undefined]
+console.log(arr);
+objects in javascript
+objects are used to store data in the form of key and value pair
+two types to cereate object
+declaration way
+let obj={
+    name:"abc",
+    id:1,
+    boolean:true,
+    arr:[10,20,30],
+    null:null,
+    Undefined:undefined,
+    demo:function(){
+        console.log("hello)
+    }
+}
+console.log(obj);
+we can create object using constructor function
+it is used to create object
+function obj1(name,id){
+    this.name=name;
+    this .id-id;
+}
+let p1=new obj1("abc",1)
+console.log(p1);
+we cannot create constructor function using the arrow function
