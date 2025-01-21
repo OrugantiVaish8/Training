@@ -340,3 +340,33 @@ function obj1(name,id){
 let p1=new obj1("abc",1)
 console.log(p1);
 we cannot create constructor function using the arrow function
+
+asynchronous function
+making a way for other function to execute first
+two methods
+set timeout(cbf,delay time)
+set interval(cbf,delay time)
+prent inside window object
+when the asynchronous function does not work promise will help the function
+
+promise
+it is an object
+it is uesd to look after asynchronous function
+it is having three phase
+pending phase (we dont know whether the promise is resolve or reject)
+either it will be resolved or reject
+resolve or fullfill phase  (pass)
+when asynchronous function working properly
+then(cbf) method
+reject phase  (fail)
+when asynchronous fuction not working properly
+catch(cbf) method
+
+syntax for promise
+new Promise((resolve,reject)=>{
+    asynchronous function code
+})
+.then(cbf)
+.catch(cbf)
+
+online will check whether the device is connected to internet or not
