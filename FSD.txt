@@ -370,3 +370,41 @@ new Promise((resolve,reject)=>{
 .catch(cbf)
 
 online will check whether the device is connected to internet or not
+isNaN is a method which checks the characters
+promise chaining 
+using multiple then methods
+async and avoid it is a keyword used to avoid promise chaining
+ajax asynchronous javascript and xml
+
+bom(browser object model) having a root element window
+window is having APIs 
+screen API (screen size)
+history API (history.go , history.back)
+fetch API 
+navigator API (takes all the devices/hardware)
+navigation API (fetch current location)
+storage API (local storage session storage)
+DOM
+
+DOM(document object model) 
+dom contains root element document
+html code is arranged in a tree structure inside the document
+html is divided into two parts 
+head (mata tag ,title tag)
+body (all tags)
+all the tags will be treated as a node
+
+dom 
+it is an object 
+it is an API provided by window 
+it is having a root element document
+it is having life span: until page reloads
+once the page has been reloaded the old dom is been distroyed and new dom is created
+dom is used to create,update/modify,delete the element 
+and we can provide style using dom
+
+how to convert html structure into dom
+document
+html 
+head (meta tag , title tag)
+body (h1 tag(hello world),para tag(batch-6))
