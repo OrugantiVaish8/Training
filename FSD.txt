@@ -408,3 +408,27 @@ document
 html 
 head (meta tag , title tag)
 body (h1 tag(hello world),para tag(batch-6))
+
+document 
+html
+head 
+body
+form
+   label, input
+div 
+spam , div
+         ol 
+          it in 
+
+
+
+if we target the element/tag using document directly (direct access)
+indirectly (indirect acess)
+
+in direct access methods in dom
+document.getElementById("value")
+document.getElementByClassName("value")
+document.getElementByTagName("value")
+document.getElementByName("value")
+document.querySelector("value")
+document.querySelectorAll("value")
