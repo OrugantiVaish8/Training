@@ -32,3 +32,23 @@ b[0].style.backgroundColor="yellow"
 console.log(b[0])
 console.log(b[1])
 
+let c=document.getElementsByTagName("p");
+console.log(c);
+console.log(c[1]);
+c[1].style.color="blue"
+c[1].textContent="hello"
+
+let d=document.getElementsByName("demo2");
+console.log(d);
+console.log(d[1]);
+d[1].style.backgroundColor="pink"
+
+// let e =document.querySelector("#demo");
+// console.log(e)
+
+let e1=document.querySelectorAll(".demo1");
+console.log(e1);
+
+// let f =document.querySelectorAll("#demo");
+// console.log(f);
+// console.log(f[0]);

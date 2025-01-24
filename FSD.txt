@@ -432,3 +432,29 @@ document.getElementByTagName("value")
 document.getElementByName("value")
 document.querySelector("value")
 document.querySelectorAll("value")
+
+document.querySelector
+--->we have to pass value with css symbol.
+--->will return reference of first element.
+
+document.querySelectorAll
+--->we have to pass value with css symbol.
+--->will return reference in a node list.
+
+Events in DOM 
+---->it is an action performed by end-users on a web-page
+types
+-->key board
+key up 
+key down 
+key press
+-->mouse
+onmouse over
+onmouse leave
+dbclick
+-->form 
+input
+blur
+focus
+-->pointer
+click
