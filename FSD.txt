@@ -458,3 +458,25 @@ blur
 focus
 -->pointer
 click
+
+JSON (java script object notation)
+--->it is a plain text file used to store data in the form of key and value pair
+--->where all the keys should be enclosed in double quotes
+--->two methods
+1)stringify()
+-->will convert object to JSON format
+2)parse()
+-->will convert JSON to object format
+
+how to create a JSON
+step 1-> craete a .json file
+Step 2->create a data in the form of key and value pair and key should be enclosed with double quotes .
+        Has a value we should not use undefined and function data-type
+
+
+in json we are going to create array of object -->[{},{},{},.....]
+fetching json to web page 
+3 methods
+-->fetch()method
+-->ajax
+-->axios

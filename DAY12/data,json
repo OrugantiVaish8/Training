@@ -1,0 +1,17 @@
+[
+    {
+        "name":"vaish",
+        "id":1,
+        "designation":"developer"
+    },
+    {
+        "name":"vaishnavi",
+        "id":2,
+        "designation":"tester"
+    },
+    {
+        "name":"vaishu",
+        "id":3,
+        "designation":"devops"
+    }
+]
