@@ -26,10 +26,10 @@ window.fetch('https://fakestoreapi.com/products')
         console.log(x);
         console.log(x.name);
         console.log(x.id);
-        document.body.innerHTML+=`<h1>${x.title}</h1>`
+        document.body.innerHTML+=`<h1>${x.id}</h1>`
         document.body.innerHTML+=`<h1>${x.title}</h1>`
         document.body.innerHTML+=`<h1>${x.price}</h1>`
-        document.body.innerHTML+=`<src>${x.image}</src>`
+        document.body.innerHTML +=`<img src="${x.image}" alt="${x.title}" width="200"/>`; 
     })
 })
 

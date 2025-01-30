@@ -62,21 +62,6 @@ Increment
 --
 Decrement
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Increment:
 Pre increment
 Post increment
@@ -282,10 +267,6 @@ Main Advantages
 Code Reuseability(write once call multiple times)
 
 
-
-
-
-
 Create a function of two numbers and the input should be taken from end user
 nested function
 function inside another function
@@ -421,7 +402,6 @@ spam , div
           it in 
 
 
-
 if we target the element/tag using document directly (direct access)
 indirectly (indirect acess)
 
@@ -480,3 +460,59 @@ fetching json to web page
 -->fetch()method
 -->ajax
 -->axios
+
+frame work
+-->It is a collection of library
+-->example(angular js ,bootstrap ,tailwind css)
+library
+-->it is a collection of methods or function
+-->example(react js, jquery, node js, popper js)
+
+react
+-->it is a library
+-->it is used to develop single page application
+-->it is a component based application
+-->components are re-usable
+-->react is declarative
+
+note-->react will renders component on the web page without page reloading
+
+react uses diffing algorithm
+MVC architecture
+three dependencies
+-->react(create element ,all hooks)
+-->react dom
+-->react script
+
+2013, facebook(meta), jorden walke
+
+react 19
+how to create react-application
+1-->CDN way
+2-->node.js way
+a-->npm
+used to install ,update ,delete packages in js
+packages will be installed globally
+
+npm install -g create-react-application
+create-react-app project-name
+
+npm create vite@latest--->it will install layest version of react
+
+b-->npx
+npx is used to execute packages without installing it.
+no need of globally while installing packages
+
+npx create-react-app project-name
+
+cd day1
+npm create vite@latest
+project name:app 
+select a framework:react 
+select a varient:javascript
+cd app
+npm install
+npm run dev 
+o and press enter key 
+proceed (yes/y)
+enter the package name(react the enter then select the package name)
