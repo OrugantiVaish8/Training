@@ -516,3 +516,53 @@ npm run dev
 o and press enter key 
 proceed (yes/y)
 enter the package name(react the enter then select the package name)
+
+components in react
+-->these are basic building blocks in react
+-->components rae reusable
+-->components are two types
+class based components 
+function based components/presentational component /dumb component
+
+
+class based component
+-->it is a es6 class in js.
+-->it uses react lifecycle.
+-->it is a statefull component.
+-->it uses render method.
+   render() method will renders component on the web page
+-->It uses constructor to store data and extends keyword.
+
+import React from 'react'
+class demo extends React.Component{
+    render(){
+        return <h1>i am class based component</h1>
+    }
+}
+export default demo;
+
+function baes component 
+-->it is a js pure function
+-->it does not use react lifecycle
+-->it does not take any render method
+-->ot is stateless
+   after react 16.8 FBC becomes statefull component because of hooks
+-->there is no constructor and extends in FBC
+
+import React from 'react'
+function demo1(){
+    return(
+        <h1>i am function component</h1>
+    )
+}
+export default demo1
+
+import React from 'react'
+let demo2=()=>{
+    return(
+        <h1>i am function component</h1>
+    )
+}
+export default demo2
+
+write about yourself using function sbased component and it should be printed on the web page
