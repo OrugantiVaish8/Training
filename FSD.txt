@@ -566,3 +566,38 @@ let demo2=()=>{
 export default demo2
 
 write about yourself using function sbased component and it should be printed on the web page
+
+
+dom in js
+let h1 = document.createElement("h1)
+console.log(h1)
+h1.textContent="hello"
+React.createElement("tag-name" , "null or {id: "demo"} ", "content")
+eg:-
+React.createElement("h1" , "null" , "hello")
+eg:-
+React.createElement("div" , {id : "demo"} , react.createElement
+    ("span" , "null","hello"))
+)
+JSX(java-script xml)
+ it is used to create html in react 
+ it is neither String nor html
+ rules:-
+ 1 all the Elementments should be en-closed
+ eg:-
+ <img/>
+ <h1/>
+ 2 if there is a more then one element it should be wrapped inside parent elementor FragmentDirective.applyeg:-
+ <h1>hello</h1>
+ <h2>hello</h2>
+ </>
+ </> used in save the memort imn virtual dom(react 16.8)
+
+ 3 use {} for writting XPathExpression.
+ eg:- <h1>{5+5}</h1>
+
+props in react
+-->props stands properties.
+-->used to send data feom one component to another component.
+-->props are uni-directional.
+-->props are immutable
