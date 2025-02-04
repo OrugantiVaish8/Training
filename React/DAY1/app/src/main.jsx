@@ -4,7 +4,8 @@ import './index.css'
 // import Cbc from './component/Cbc.jsx'
 // import Fbc from './component/Fbc.jsx'
 // import Demo from './component/demo.jsx'
-import Parent from './props/Parent.jsx'
+// import Parent from './props/Parent.jsx'
+import State from './state/State.jsx'
 // import UserDetailsClass from './component/UserClass.jsx'
 // import UserDetailsFunctional from './component/UserFunction.jsx'
 // import UserDetails from './props/User.jsx'
@@ -15,10 +16,11 @@ createRoot(document.getElementById('root')).render(
     {/* <Cbc />
     <Fbc/> 
     <Demo/> */}
-    <Parent/>
+    {/* <Parent/> */}
     {/* <UserDetailsClass/>
     <UserDetailsFunctional/>
     <Userp/>
     <UserDetails/> */}
+    <State/>
   </StrictMode>,
 )

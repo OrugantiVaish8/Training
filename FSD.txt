@@ -601,3 +601,14 @@ props in react
 -->used to send data feom one component to another component.
 -->props are uni-directional.
 -->props are immutable
+
+state in react
+-->state is used to store data in the component and update the data in the component
+-->state is mutable(we can read and write)
+
+syntax:
+import {useState} from 'react'
+let [state, setState] = useState(initial-value)
+
+state-->used to store initial value
+setState-->used to update state value
