@@ -1,11 +1,20 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
+import Comp3 from './list_key/Comp3'
+//import Ref from './useRef/Ref'
+//import List from './list_key/List'
+// import Inline from './styles/Inline.jsx'
+//import Comp1 from './styles/Comp1.jsx'
+//import Comp2 from './styles/Comp2.jsx'
+// import "../src/styles/external.css"
+// import External from './styles/External.jsx'
+// import './index.css'
 // import Cbc from './component/Cbc.jsx'
 // import Fbc from './component/Fbc.jsx'
 // import Demo from './component/demo.jsx'
 // import Parent from './props/Parent.jsx'
-import State from './state/State.jsx'
+// import State from './state/State.jsx'
+// import Inline from './styles/Inline.jsx'
 // import UserDetailsClass from './component/UserClass.jsx'
 // import UserDetailsFunctional from './component/UserFunction.jsx'
 // import UserDetails from './props/User.jsx'
@@ -21,6 +30,12 @@ createRoot(document.getElementById('root')).render(
     <UserDetailsFunctional/>
     <Userp/>
     <UserDetails/> */}
-    <State/>
+    {/* <State/> */}
+    {/* <Inline/> */}
+    {/* <Comp1/>
+    <Comp2/> */}
+    {/* <External/> */}
+    {/* <Ref/> */}
+    <Comp3/>
   </StrictMode>,
 )

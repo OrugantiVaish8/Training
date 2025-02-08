@@ -612,3 +612,34 @@ let [state, setState] = useState(initial-value)
 
 state-->used to store initial value
 setState-->used to update state value
+
+ways of using styles in react  
+1->inline css
+2->globally css  
+3->external css(important)
+
+note: Hook was introduced in react 16.8
+      It only works in the function based component
+
+useRef hook in react
+-----------------------
+--> ref stands for reference
+-->useRef uses real-dom
+-->useRef is having a object called current.
+-->used ref keyword
+-->it is used for in-controlled form
+
+syntax:-
+import {useRef} from 'react'
+let identifier=useRef()
+
+
+list and keys in react
+--------------------
+-->list is used to iterate array using map() method.
+-->keys are used to track an element.
+-->using keys will understand which element is created , updated and deleted.
+
+advantage :
+-->improves component efficiency
+-->improves optimization of the browser 
