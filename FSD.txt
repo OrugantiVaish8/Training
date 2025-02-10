@@ -643,3 +643,41 @@ list and keys in react
 advantage :
 -->improves component efficiency
 -->improves optimization of the browser 
+
+
+how to avoid props drilling
+----------------------------
+1->useContext hook
+2->HOC(Higher order component)
+3->Redux
+
+useContext hook in react(imp)
+-------------------------------
+it is used to send data from one component to multiple component without passing props
+it is used to avoid props drilling
+
+Syntax
+------
+import React from react
+
+step1
+create a useContext and export it
+
+export let/var/const  identifier-name=React.createConext(initial-value)
+
+step2:
+use provider to pass the value
+
+<identifier-name.provider value={}>
+    <child component/>
+</identifier-name.provider>
+
+step3:
+use consumer to consume value given by provider
+
+import context from 'path'
+<identifier-name.consumer>
+    {
+        cbf
+    }
+</identifier-name.consumer>
