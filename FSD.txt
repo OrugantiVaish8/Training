@@ -681,3 +681,29 @@ import context from 'path'
         cbf
     }
 </identifier-name.consumer>
+
+useEffect hoot in react
+-----------------------
+-->it is useed to side effect for function based component
+-->in react we can tell to component to perform something after component renders.
+
+advantage:-
+-->used for updating dom
+-->used for timer 
+-->it is used to fetch an api 
+
+useEffect will avoids react lifecycle 
+-->componentDidMount
+ComponentDidUpdate
+ComponentWillUnMount
+
+Syntax
+------
+import {useEffect} from 'react'
+
+useEffect(cbf,dependency
+
+dependency(3-ways)) 
+1->no dependency-->component will renders infinite times
+2->empty dependency-->component will render only once
+3->dependency with value(state,props)-->component will render only when value changes
