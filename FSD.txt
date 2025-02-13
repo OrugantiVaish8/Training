@@ -707,3 +707,18 @@ dependency(3-ways))
 1->no dependency-->component will renders infinite times
 2->empty dependency-->component will render only once
 3->dependency with value(state,props)-->component will render only when value changes
+
+browser routers in react 
+------------------------
+-->it is  library
+-->it is used to interactone component to multiple component.
+-->routes is a predefined component used to wrap routers
+-->route is a predefined component used for routing purpose
+-->browser router ia  apredefined component used to wrap routes 
+-->useNavigate() it is used to navigate component.
+-->useParams() hook it is used to target predefined variable.
+--><link></link> used for linking purpose 
+<outlet></outlet> used for place holder
+what is single page application 
+-------------------------------
+-->used to link one component to another component without a apage reloading.
