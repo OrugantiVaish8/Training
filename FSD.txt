@@ -722,3 +722,12 @@ browser routers in react
 what is single page application 
 -------------------------------
 -->used to link one component to another component without a apage reloading.
+
+terminal
+new terminal
+command prompt
+cd db
+json-server --watch users.json --port=8375
+
+new terminal
+cd react-crud 

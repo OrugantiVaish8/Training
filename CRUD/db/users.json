@@ -1,9 +1,9 @@
 {
-    "users" : [
-        {
-            "name" : "Vaish" ,
-            "id" : 1 ,
-            "role" : "Developer"
-        }
-    ]
+  "users": [
+    {
+      "id": "675",
+      "name": "oruganti",
+      "role": "developer"
+    }
+  ]
 }
