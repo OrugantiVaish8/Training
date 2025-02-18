@@ -731,3 +731,14 @@ json-server --watch users.json --port=8375
 
 new terminal
 cd react-crud 
+
+
+Higher order component
+----------------------
+->it is an adfvance technique used to reuse components Logic 
+->HOC is a function which accepts another component as an argument and returns new component 
+->It is used to avoid props drilling 
+
+syntax 
+------
+let newComponent=HigherOrderComponent(OriginalComponent)
