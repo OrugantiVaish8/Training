@@ -735,10 +735,21 @@ cd react-crud
 
 Higher order component
 ----------------------
-->it is an adfvance technique used to reuse components Logic 
+->it is an advance technique used to reuse components Logic 
 ->HOC is a function which accepts another component as an argument and returns new component 
 ->It is used to avoid props drilling 
 
 syntax 
 ------
 let newComponent=HigherOrderComponent(OriginalComponent)
+
+
+
+
+css grid
+values for the left column 
+footer=1/4
+grid row= 2/4
+grid column=3/4
+
+
