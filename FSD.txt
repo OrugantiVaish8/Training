@@ -753,3 +753,30 @@ grid row= 2/4
 grid column=3/4
 
 
+bootstrap
+---------------
+->it was introduced by twitter company
+->it is an open source framework
+->mark o and Jacob developed bootstrap framework
+->it is used to develop a mobile application and it is responsive 
+
+->bootstrap
+-------------
+->consists of 
+--->html
+---->css(sass and less pre-processor of css)
+---->js(jquery and popper library)
+
+
+USE watches; SELECT * FROM watches;
+
+create table laptops(id int primary key,pname varchar(200),pcost double,pimage varchar(500),pqty int);
+INSERT INTO laptops VALUES (1, "laptop1", 100, "https://ecommproject1.s3.eu-north-1.amazonaws.com/laptop1.jpeg", 10);
+INSERT INTO laptops VALUES (2, "laptop2", 200, "https://ecommproject1.s3.eu-north-1.amazonaws.com/laptop2.jpeg", 20);
+INSERT INTO laptops VALUES (3, "laptop3", 300, "https://ecommproject1.s3.eu-north-1.amazonaws.com/laptop3.jpeg", 30);
+INSERT INTO laptops VALUES (4, "laptop4", 400, "https://ecommproject1.s3.eu-north-1.amazonaws.com/laptop4.jpeg", 40);
+INSERT INTO laptops VALUES (5, "laptop5", 500, "https://ecommproject1.s3.eu-north-1.amazonaws.com/laptop5.jpeg", 50);
+
+
+
+

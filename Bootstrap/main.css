@@ -1,0 +1,12 @@
+.navbar{
+    background-color: rgb(0, 238, 255) !important;
+}
+img{
+    height: 400px;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
